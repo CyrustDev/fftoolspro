@@ -3,138 +3,193 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>FF ToolsPro+ – Join Kontributor</title>
-  <style>
-    body {
-      background-color: #ffffff;
-      color: #222;
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 20px;
-    }
-    h1 {
-      color: #ff6600;
-      text-align: center;
-      margin-bottom: 30px;
-    }
-    .container {
-      max-width: 720px;
-      margin: auto;
-    }
-    .section {
-      background-color: #f7f7f7;
-      border: 1px solid #ff6600;
-      border-radius: 10px;
-      padding: 20px;
-      margin-bottom: 30px;
-    }
-    h2 {
-      color: #ff6600;
-      margin-top: 0;
-    }
-    ul {
-      padding-left: 20px;
-      line-height: 1.8;
-    }
-    label {
-      display: block;
-      margin-top: 15px;
-      font-weight: bold;
-    }
-    input, textarea {
-      width: 100%;
-      padding: 10px;
-      margin-top: 5px;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-      background-color: #fff;
-      color: #000;
-    }
-    button {
-      background-color: #ff6600;
-      color: #fff;
-      padding: 12px 20px;
-      border: none;
-      border-radius: 8px;
-      font-weight: bold;
-      margin-top: 20px;
-      cursor: pointer;
-      transition: background 0.3s ease;
-    }
-    button:hover {
-      background-color: #e05500;
-    }
-    .footer {
-      text-align: center;
-      margin-top: 40px;
-      color: #777;
-      font-size: 14px;
-    }
-  </style>
+  <title>FF ToolsPro+ – Solusi Ultimate untuk Player Free Fire</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  
   <script>
-    function sendToWA() {
-      const nama = document.getElementById('nama').value;
-      const role = document.getElementById('role').value;
-      const skill = document.getElementById('skill').value;
-      const link = document.getElementById('link').value;
-
-      const pesan = `Halo saya ingin bergabung sebagai kontributor FF ToolsPro+.%0A` +
-                    `Nama: ${nama}%0A` +
-                    `Role: ${role}%0A` +
-                    `Skill/pengalaman: ${skill}%0A` +
-                    `Link karya: ${link}`;
-                    
-      const waLink = `https://wa.me/6283142555936?text=${pesan}`;
-      window.open(waLink, '_blank');
+    function toggleMenu() {
+      const menu = document.getElementById('mobileMenu');
+      menu.classList.toggle('hidden');
     }
   </script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .fade-in {
+      animation: fadeIn 1.2s ease-out both;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
 </head>
-<body>
-  <div class="container">
-    <h1>Join Kontributor<br>FF ToolsPro+</h1>
-
-    <div class="section">
-      <h2>Posisi Tersedia</h2>
-      <ul>
-        <li>Developer Shell Script (.sh)</li>
-        <li>Desain antarmuka (UI Designer)</li>
-        <li>Modder file konfigurasi</li>
-        <li>Beta Tester tools & aplikasi</li>
-        <li>Promosi sosial media (TikTok, IG, YT Shorts)</li>
-        <li>Admin komunitas / Customer Support</li>
-      </ul>
+<body class="bg-black text-white font-sans">
+  <!-- Header -->
+  <header class="fixed top-0 left-0 right-0 bg-black bg-opacity-80 backdrop-blur-sm z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="flex items-center gap-4">
+        <img src="https://iili.io/3pCmLNa.jpg" alt="FF ToolsPro+ Logo" class="w-6 h-6 rounded" />
+        <h1 class="text-xl font-semibold tracking-wide">FF ToolsPro+</h1>
+      </div>
+      <div class="hidden md:flex space-x-6 text-sm">
+        <a href="#fitur" class="hover:underline">Fitur</a>
+        <a href="#tampilan" class="hover:underline">Tampilan</a>
+        <a href="#tentang" class="hover:underline">Tentang</a>
+        <a href="#blog" class="hover:underline">Blog</a>
+        <a href="#download" class="bg-white text-black px-4 py-2 rounded-full hover:bg-gray-300 transition">Download</a>
+      </div>
+      <button class="md:hidden text-white focus:outline-none" onclick="toggleMenu()">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
     </div>
-
-    <div class="section">
-      <h2>Keuntungan Kontributor</h2>
-      <ul>
-        <li>Akses ke semua versi internal & plugin eksperimen</li>
-        <li>Nama dicantumkan secara resmi di aplikasi & situs</li>
-        <li>Bergabung ke komunitas developer internal</li>
-        <li>Potensi naik ke tim inti (private team)</li>
-      </ul>
+    <div id="mobileMenu" class="md:hidden hidden px-6 pb-4">
+      <a href="#fitur" class="block py-2 hover:underline">Fitur</a>
+      <a href="#tampilan" class="block py-2 hover:underline">Tampilan</a>
+      <a href="#tentang" class="block py-2 hover:underline">Tentang</a>
+      <a href="#blog" class="block py-2 hover:underline">Blog</a>
+      <a href="#download" class="block py-2 bg-white text-black text-center rounded hover:bg-gray-300">Download</a>
     </div>
+  </header>
 
-    <div class="section">
-      <h2>Formulir Pendaftaran WhatsApp</h2>
-      <label for="nama">Nama/Nickname:</label>
-      <input type="text" id="nama" placeholder="Contoh: CyrustMods"/>
+  <!-- Hero Section -->
+  <main class="pt-24">
+    <section class="text-center py-32 px-6 fade-in bg-gradient-to-b from-black to-gray-900">
+      <h2 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">FF ToolsPro+<br>Solusi Ultimate untuk Player Free Fire</h2>
+      <p class="text-gray-300 text-xl max-w-2xl mx-auto mb-10">Optimalkan gameplay Anda, maksimalkan kemenangan.</p>
+      <a href="#download" class="bg-white text-black px-10 py-4 text-lg rounded-full font-semibold hover:bg-gray-300 transition transform hover:scale-105">Download Sekarang</a>
+    </section>
 
-      <label for="role">Role yang diambil:</label>
-      <input type="text" id="role" placeholder="Contoh: UI Designer"/>
+    <!-- Deskripsi -->
+    <section class="bg-black py-24 px-6 text-center fade-in">
+      <div class="max-w-3xl mx-auto">
+        <h3 class="text-2xl font-bold mb-6">Deskripsi Singkat</h3>
+        <ul class="text-gray-300 space-y-3 text-lg">
+          <li>✔️ Ringan, gratis, tanpa root.</li>
+          <li>✔️ Kompatibel Android 8 ke atas.</li>
+          <li>✔️ Otomatis update & mudah digunakan.</li>
+        </ul>
+      </div>
+    </section>
 
-      <label for="skill">Skill / Pengalaman:</label>
-      <textarea id="skill" rows="3" placeholder="Contoh: Membuat tampilan Android, desain XML, icon vector, dsb."></textarea>
+    <!-- Fitur -->
+<!-- Fitur Unggulan -->
 
-      <label for="link">Link Karya (jika ada):</label>
-      <input type="text" id="link" placeholder="Contoh: https://github.com/nama/project"/>
+<!-- Fitur Unggulan -->
+<section id="fitur" class="bg-gray-900 py-28 px-6 fade-in text-center">
+  <div class="max-w-6xl mx-auto">
+    <h3 class="text-4xl font-bold mb-12">Fitur Unggulan</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 text-left">
+      <div class="bg-black p-8 rounded-2xl shadow-lg transform hover:scale-105 transition">
+        <div class="flex items-center mb-4">
+          <span class="material-icons text-white mr-3">adjust</span>
+          <h4 class="text-xl font-semibold">Crosshair Custom</h4>
+        </div>
+        <p class="text-gray-400">Aiming lebih akurat.</p>
+      </div>
 
-      <button onclick="sendToWA()">Kirim ke WhatsApp</button>
-    </div>
+      <div class="bg-black p-8 rounded-2xl shadow-lg transform hover:scale-105 transition">
+        <div class="flex items-center mb-4">
+          <span class="material-icons text-white mr-3">speed</span>
+          <h4 class="text-xl font-semibold">Game Booster Mode</h4>
+        </div>
+        <p class="text-gray-400">Optimalkan CPU & GPU.</p>
+      </div>
 
-    <div class="footer">
-      &copy; 2025 FF ToolsPro+ Team – All rights reserved
+      <div class="bg-black p-8 rounded-2xl shadow-lg transform hover:scale-105 transition">
+        <div class="flex items-center mb-4">
+          <span class="material-icons text-white mr-3">highlight_off</span>
+          <h4 class="text-xl font-semibold">Auto Kill Apps</h4>
+        </div>
+        <p class="text-gray-400">Tutup aplikasi latar belakang.</p>
+      </div>
+
+      <div class="bg-black p-8 rounded-2xl shadow-lg transform hover:scale-105 transition">
+        <div class="flex items-center mb-4">
+          <span class="material-icons text-white mr-3">memory</span>
+          <h4 class="text-xl font-semibold">RAM Cleaner</h4>
+        </div>
+        <p class="text-gray-400">Kosongkan RAM real-time.</p>
+      </div>
+
+      <div class="bg-black p-8 rounded-2xl shadow-lg transform hover:scale-105 transition">
+        <div class="flex items-center mb-4">
+          <span class="material-icons text-white mr-3">grid_view</span>
+          <h4 class="text-xl font-semibold">HUD & Sensitivity Custom</h4>
+        </div>
+        <p class="text-gray-400">Sesuaikan gaya main.</p>
+      </div>
+
+      <div class="bg-black p-8 rounded-2xl shadow-lg transform hover:scale-105 transition">
+        <div class="flex items-center mb-4">
+          <span class="material-icons text-white mr-3">notifications_off</span>
+          <h4 class="text-xl font-semibold">Anti Notifikasi</h4>
+        </div>
+        <p class="text-gray-400">Main tanpa gangguan.</p>
+      </div>
     </div>
   </div>
+</section>
+
+    <!-- Tampilan Aplikasi -->
+<!-- Tampilan Aplikasi -->
+<section id="tampilan" class="bg-black py-28 px-6 text-center fade-in">
+  <h3 class="text-4xl font-bold mb-12">Tampilan Aplikasi</h3>
+  <div class="flex flex-col md:flex-row justify-center items-center gap-6">
+    <img src="https://fftools2018.github.io/index/assets/Screenshot1.png" alt="Tampilan Utama" class="w-64 rounded-2xl shadow-2xl transition transform hover:scale-105" />
+    <img src="https://fftools2018.github.io/index/assets/Screenshot2.png" alt="Booster Mode" class="w-64 rounded-2xl shadow-2xl transition transform hover:scale-105" />
+    <img src="https://fftools2018.github.io/index/assets/Screenshot3.png" alt="Crosshair Custom" class="w-64 rounded-2xl shadow-2xl transition transform hover:scale-105" />
+  </div>
+</section>
+
+    <!-- Komunitas -->
+    <section class="bg-gray-900 py-24 px-6 text-center fade-in">
+      <h3 class="text-3xl font-bold mb-4">Bergabunglah sebagai Kontributor!</h3>
+      <p class="text-gray-300 mb-6">Dukung pengembangan FF ToolsPro+ dan bantu komunitas Free Fire makin solid.</p>
+      <a href="https://wa.me/6283142555936" class="bg-green-500 hover:bg-green-400 px-8 py-3 rounded-full font-semibold transition">Join Komunitas via WhatsApp</a>
+    </section>
+
+    <!-- Tentang -->
+    <section id="tentang" class="bg-black py-20 px-6 text-center fade-in">
+      <h3 class="text-3xl font-bold mb-4">Tentang Aplikasi</h3>
+      <p class="text-gray-400 max-w-2xl mx-auto">FF ToolsPro+ adalah aplikasi pendukung game Free Fire & FF MAX, dirancang untuk membantu player meningkatkan performa, kenyamanan, dan peluang kemenangan. Tidak memerlukan root, ringan, dan mudah digunakan oleh semua kalangan.</p>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="bg-gray-900 py-24 px-6 text-center fade-in">
+      <h3 class="text-3xl font-bold mb-4">Blog & Tips</h3>
+      <p class="text-gray-300 max-w-xl mx-auto">Baca artikel, tutorial, dan tips terbaru seputar FF ToolsPro+ dan cara meningkatkan performa permainanmu di Free Fire.</p>
+      <div class="mt-6">
+        <a href="#" class="underline text-blue-400 hover:text-blue-300">Lihat Semua Artikel</a>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section class="bg-black py-20 px-6 text-center fade-in">
+      <h3 class="text-3xl font-bold mb-4">Kontak Support</h3>
+      <p class="text-gray-300">Email: <a href="mailto:cyrustmods21@gmail.com" class="underline">cyrustmods21@gmail.com</a><br>
+         WhatsApp: <a href="https://wa.me/6283142555936" class="underline">083142555936</a></p>
+    </section>
+
+    <!-- Sosial Media -->
+    <section class="bg-gray-900 py-20 px-6 text-center fade-in">
+      <h3 class="text-3xl font-bold mb-4">Ikuti Kami di Media Sosial</h3>
+      <p class="text-gray-400">[Link ke Media Sosial]</p>
+    </section>
+
+    <!-- CTA Download -->
+    <section class="text-center py-24 px-6 bg-black">
+      <a id="download" href="#" class="bg-white text-black px-10 py-4 rounded-full text-lg font-bold hover:bg-gray-300 transform hover:scale-105 transition">FF ToolsPro+.apk</a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-black border-t border-gray-800 text-center py-6 text-sm text-gray-500">
+    &copy; 2025 FF ToolsPro+. Tidak terafiliasi dengan Garena. Gunakan dengan bijak.
+  </footer>
 </body>
 </html>
