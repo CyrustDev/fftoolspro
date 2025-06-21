@@ -1,33 +1,47 @@
-# 🎮 FF ToolsPro+ – Join Kontributor
+# FF ToolsPro+
 
-Halaman rekrutmen resmi untuk bergabung sebagai kontributor dalam pengembangan **FF ToolsPro+**, sebuah tools & plugin eksperimen untuk optimasi game.
+🚀 **FF ToolsPro+** adalah aplikasi pendukung untuk pemain Free Fire dan FF MAX. Dirancang untuk meningkatkan performa perangkat dan pengalaman bermain secara maksimal — tanpa perlu root!
 
-## 🔧 Posisi yang Dibuka
+## 🌟 Fitur Utama
 
-- Developer Shell Script (.sh)
-- Desain Antarmuka (UI Designer)
-- Modder File Konfigurasi (HUD, crosshair, dsb)
-- Beta Tester Tools & Aplikasi
-- Promosi Sosial Media (TikTok, IG, YouTube Shorts)
-- Admin Komunitas / Customer Support
+- 🎯 **Crosshair Custom** – Aiming lebih akurat dengan overlay crosshair.
+- ⚙️ **Game Booster Mode** – Optimalkan CPU & GPU untuk performa maksimal.
+- 🔒 **Auto Kill Apps** – Tutup aplikasi latar belakang yang mengganggu.
+- 🧠 **RAM Cleaner** – Kosongkan RAM secara real-time.
+- 🎮 **HUD & Sensitivity Custom** – Sesuaikan gaya bermain kamu.
+- 🔕 **Anti Notifikasi** – Main tanpa gangguan pop-up.
 
-## 🎁 Keuntungan Kontributor
+## 📱 Tampilan Aplikasi
 
-- ✅ Akses ke semua versi internal & plugin eksperimen
-- ✅ Nama dicantumkan secara resmi di aplikasi & situs
-- ✅ Bergabung ke komunitas developer internal
-- ✅ Potensi naik ke tim inti (private team)
+| Tampilan Utama | Booster Mode | Crosshair Custom |
+|----------------|--------------|------------------|
+| ![Screenshot1](https://fftools2018.github.io/index/assets/Screenshot1.png) | ![Screenshot2](https://fftools2018.github.io/index/assets/Screenshot2.png) | ![Screenshot3](https://fftools2018.github.io/index/assets/Screenshot3.png) |
 
-## 📲 Cara Daftar
+## 💻 Live Preview
 
-Isi formulir yang tersedia di halaman, lalu kirim langsung ke WhatsApp.
+👉 Coba versi live: [fftools2018.github.io](https://fftools2018.github.io)
 
-🔗 **Demo halaman:**  
-[Klik untuk melihat halaman](https://username.github.io/fftoolspro-plus/)
+## 📦 Teknologi yang Digunakan
 
-📱 **Kirim langsung ke WhatsApp:**  
-`https://wa.me/6283142555936`
+- HTML5 & Tailwind CSS
+- Responsive UI ala Apple.com
+- Material Icons dari Google Fonts
+- Hosting via GitHub Pages
 
----
+## 📲 Download APK
 
-## 📁 Struktur Repositori
+Versi terbaru dapat diunduh dari halaman [Releases](https://github.com/fftools2018/fftoolspro/releases) _(atau sesuaikan jika file .apk tersedia)_
+
+## 🤝 Kontribusi
+
+Kami terbuka untuk kontribusi dari komunitas!  
+Bergabung melalui WhatsApp: [0831-4255-5936](https://wa.me/6283142555936)
+
+## 🛠️ Pengembang
+
+- 💼 Email: cyrustmods21@gmail.com
+- 🧠 Dibuat dengan ❤️ oleh komunitas FF ToolsPro+
+
+## ⚠️ Disclaimer
+
+> Aplikasi ini tidak berafiliasi dengan Garena. FF ToolsPro+ hanya bertujuan untuk meningkatkan performa perangkat secara legal dan tidak menyentuh sistem game internal.
